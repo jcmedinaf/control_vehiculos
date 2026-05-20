@@ -1,0 +1,108 @@
+:root{
+    --dark: #343a40;
+    --primary: #2c3e50;
+    --primary-color: #1bc9cc;
+    --border-color: #44d4f5;
+    --danger-light: #f8d7da;
+    --danger-text: #721c24;
+    --danger-color: #c0392b;
+}
+
+body{
+    background-color: #eef2f3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: var(--dark);
+}
+
+h2, h3{
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--primary);
+}
+
+.login-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background: linear-gradient(135deg, #2c3e50, #1a252f);
+}
+
+.login-card{
+    background: white;
+    padding: 40px 35px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.login-card h2{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-style: 22px;
+}
+
+.login-card h3{
+    text-align: center;
+    color: #7f8c8d;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--primary-color);
+}
+
+.form-group input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    border: 1px solid var(--border-color);
+    display: block;
+      box-sizing: border-box;
+    
+}
+
+.btn-primary-block{
+    width: 100%;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.alert-danger{
+    padding: 12px;
+    background-color: var(--danger-light);
+    color: var(--danger-text);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border-left: 4px solid var(--danger-color);
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+}
